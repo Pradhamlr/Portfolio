@@ -23,7 +23,7 @@ nav ul{
 nav ul li{
     list-style: none;
     margin: 0 23px;
-    font-size: larger;
+    font-size: large;
 }
 
 nav ul li a{
@@ -59,8 +59,8 @@ nav ul li a:hover{
 }
 
 .rightsection img{
-    width: 70%;
-    height: auto;
+    width: 400px;
+    height: 500px;
     border-radius: 20%;
 
     
