@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Pradham's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="http://">Home</a></li>
+            <li><a href="http://">About</a></li>
+            <li><a href="http://">Skills</a></li>
+            <li><a href="http://">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is <span class="purple"> Pradham </span>
+          <div>and I am a passionate</div>
+
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="Pra.jpg" alt="" />
+        </div>
+      </section>
+      <hr />
+
+      <div class="Second">
+        <div id="three">
+          <h1>About</h1>
+        </div>
+        <div class="about">
+          <p>
+            Hey! I'm a
+            <span class="purple"> Computer Science and Engineering </span>
+            Undergrad at Govt Model Engineering College, Thrikkakara. I'm
+            committed to building a strong foundation in whichever field I step
+            into. I'm constantly seeking opportunities to
+            <span class="purple">enhance my skills</span> and
+            <span class="purple">build innovative projects.</span>
+          </p>
+        </div>
+      </div>
+      <hr id="two" />
+
+      <div class="skill">
+        <h1>Skills</h1>
+
+        <li><h3>Html</h3>
+          <span class="bar"><span class="html"></span></span>
+        </li>
+
+        <li><h3>Css</h3>
+          <span class="bar"><span class="css"></span></span>
+        </li>
+
+        <li><h3>Python</h3>
+          <span class="bar"><span class="python"></span></span>
+        </li>
+
+        <li><h3>Javascript</h3>
+          <span class="bar"><span class="js"></span></span>
+        </li>
+      </div>
+      <hr />
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Trader", "Video Editor", "Web Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
